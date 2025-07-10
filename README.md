@@ -38,7 +38,7 @@ cp wallet.json.example wallet.json
 3. open wallet.json:
    ##copy this
    
-   ```json
+   ```bash
    nano wallet.json
 
 4. edit it (change placeholders to your wallet data)
