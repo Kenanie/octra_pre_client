@@ -35,8 +35,14 @@ pip install -r requirements.txt
 cp wallet.json.example wallet.json
 ```
 
-3. open wallet.json and edit it (change placeholders to your wallet data):
+3. open wallet.json:
+   ##copy this
+   
+   ```json
+   nano wallet.json
 
+4. edit it (change placeholders to your wallet data)
+   ##use B64 type for private key
 ```json
 {
   "priv": "private-key-here",
@@ -45,7 +51,7 @@ cp wallet.json.example wallet.json
 }
 ```
 
-3. run
+5. run
 
 ```bash
 ./run.sh       # on linux/mac
